@@ -32,7 +32,7 @@ book-scraper/
 │   ├── main.py        # Entry point — orchestrates the scrape
 │   ├── scraper.py     # HTTP requests and pagination
 │   ├── parser.py      # HTML parsing and field extraction
-│   └── utils.py       # Shared helpers (rating map, JSON export, date)
+│   └── utils.py       # Shared helpers (rating map, JSON and CSV export, date)
 │
 ├── data/
 │   └── books.json     # Output file (auto-generated on run)
