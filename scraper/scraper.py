@@ -10,6 +10,7 @@ CATALOGUE_URL = "https://books.toscrape.com/catalogue/"
 def get_soup(url):
     response = requests.get(url, timeout=10)
     response.raise_for_status()
+    response.encoding = "utf-8"
     return BeautifulSoup(response.text, "html.parser")
 
 
