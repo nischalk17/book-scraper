@@ -36,7 +36,7 @@ book-scraper/
 │
 ├── data/
 │   └── books.json     # Output file (auto-generated on run)
-    └── books.csv     # Output file (auto-generated on run)
+    └── books.csv      # Output file (auto-generated on run)
 │
 ├── requirements.txt
 ├── README.md
@@ -110,4 +110,3 @@ Output will be saved to `data/books.json` and `data/books.csv`.
 - Books with scrape errors are logged and skipped without crashing the run
 - The `data/` folder is created automatically if it doesn't exist
 - All 1000 Books across 50 pages were scrapped with correct details
-```
